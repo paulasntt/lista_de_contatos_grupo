@@ -1,0 +1,171 @@
+/* CSS CABEÇALHO */
+
+header {
+    width: 100%;
+    height: 145px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    padding: 18px;
+}
+
+#caixa_pesquisa {
+    text-align: center;
+    padding-top: 12px;
+
+}
+body {
+    height: auto;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-image:url(fundo.jpg);
+}
+
+#busca {
+    height: 28px;
+    width: 360px;
+    border: 4px solid #bbb;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+#pesquisa {
+    height: 28px;
+    border:2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(70, 69, 69);
+    color: white;
+}
+
+#pesquisa:hover{
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+}
+
+/* CORPO PRINCIPAL */
+
+#add {
+    border: 4px solid #bbb;
+    border-radius: 5px;
+    width:25%;
+    float: left;
+    margin: 34px 10px auto 110px;
+    text-align: center;
+    background-color: beige;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.input_add {
+    height: 25px;
+    width: 200px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+}
+
+#adicionar {
+    height: 32px;
+    width: 90px;
+    margin-top: 5px;
+    border:1px solid #bbb;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: turquoise;
+    box-shadow: 2px 2px 2px #bbb;
+}
+
+#adicionar:hover {
+    background-color: white;
+    color: turquoise;
+    border: turquoise solid 2px;
+    font-weight: bold;
+}
+
+#tabela {
+    height: 450px;
+    width: auto;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    float: left;
+    margin: 34px 40px auto 80px;
+    overflow: auto;
+    box-shadow: 4px 4px 4px grey;
+    
+}
+
+table {
+    width: 700px;
+    background-color: beige;
+}
+
+
+#add {
+    height: 450px;
+}
+
+
+th {
+    border:2px solid #bbb;
+    padding: 5px 0 5px 10px;
+    background-color: rgb(168, 168, 168);
+    text-align: left;
+}
+tr:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+td { 
+    border:2px solid #bbb;
+    padding: 3px 0 3px 10px;
+    text-align: left;
+}
+
+.edicoes {
+    width: 170px;
+    text-align: center;
+}
+.editar {
+    height: 25px;
+    border:2px solid springgreen;
+    margin: 5px 10px 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: springgreen;
+    color: white;
+    box-shadow: 3px 3px 3px #bbb;
+}
+
+.editar:hover {
+    background-color: white;
+    color: springgreen;
+    border:2px solid springgreen;
+}
+
+.excluir {
+    height: 25px;
+    border: 2px solid tomato;
+    margin: 5px 0px 5px 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+    box-shadow: 3px 3px 3px #bbb;
+    border-radius: 5px;
+}
+
+.excluir:hover {
+    background-color: white;
+    color: tomato;
+    border:2px solid tomato;
+   
+}

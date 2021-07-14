@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+    height: 145px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+body {
+    height: auto;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-image:url(fundo.jpg);
+}
+#caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    height: 400px;
+    width: 360px;
+    border: 4px solid #bbb;
+    border-radius: 5px;
+    background-color: beige;
+    text-align: center;
+}
+
+#label_nome {
+    display: inline-block;
+    margin-top: 40px;
+
+}
+#label_email {
+    display: inline-block;
+}
+
+#novo_nome, #novo_email {
+    height: 28px;
+    width: 200px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+}
+
+#salvar {
+    height: 32px;
+    width: 90px;
+    margin-top: 5px;
+    border:1px solid #bbb;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: turquoise;
+    box-shadow: 2px 2px 2px #bbb;
+}
+
+#salvar:hover {
+    background-color: white;
+    color: turquoise;
+    border: turquoise solid 2px;
+    font-weight: bold;
+}
